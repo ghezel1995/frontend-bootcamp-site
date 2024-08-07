@@ -1,3 +1,5 @@
 # frontend-bootcamp-site
-A front-end bootcamp template by HTML, CSS and Bootstrap. First edition:)
-this is pure bootstrap and without any js code A simple and easy site for develop... Enjoy.
+A front-end bootcamp template made with HTML, CSS, and Bootstrap. First edition:
+This is pure Bootstrap and contains no JavaScript code.
+A simple and easy site for development.
+Enjoy!
