@@ -9,62 +9,71 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="style.css">
-    <title>Frontend Bootcamp</title>
+    <title>Be Creative Blog</title>
 </head>
 <body>
-    <!-- navbar -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand">Frontend Bootcamp</a>
+            <a href="#" class="navbar-brand">Be Creative </a>
+
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#learn" class="nav-link">What You'll Learn</a>
+                        <a href="#learn" class="nav-link">Learn</a>
                     </li>
                     <li class="nav-item">
                         <a href="#questions" class="nav-link">Questions</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#instructors" class="nav-link">Instructors</a>
+                        <a href="#about" class="nav-link">About</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- showcase -->
+    <!-- Showcase -->
     <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
         <div class="container">
             <div class="d-sm-flex align-items-center justify-content-between">
                 <div>
-                    <h1>Become a <span class="text-warning"> Web Developer</span></h1>
-                    <p class="lead my-4">
-                        We focus on teaching our students the fundamental of the latest
-                        and greatest technologies to prepare them for they first Dev role.
-                    </p>
-                    <button class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Start The Enrollment</button>
+                    <h1>Welcome To <span class="text-warning"> Be Creative </span></h1>
+
+                    <p class="lead my-4">Become a Creative Frontend Developer</p>
+                    <p>Visual arts creativity and imagination are skills that are often lost when we hit high school.
+                        Despite dealing with code all day, front end developers still need to rely on these skills from
+                        time to time — even when we don't want to....</p>
+
                 </div>
-                <img class="img-fluid w-50 d-none d-sm-block" src="img/undraw_software_engineer_lvl5.svg" alt="">
+                <img class="img-fluid w-50 d-none d-sm-block" src="img/06.png" alt="">
             </div>
         </div>
     </section>
-
-    <!-- NewsLetter -->
+    <!-- Newsletter -->
     <section class="bg-warning text-light p-5">
         <div class="container">
-            <div class="d-md-flex justify-content-between align-items-center">
-                <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+            <div class="d-md-flex justify-content-between align-item-center">
+                <h3 class="mb-3 mb-md-0">Follow me on social Media</h3>
 
-                <div class="input-group news-input">
-                    <input type="text" class="form-control" placeholder="Enter Email">
-                    <button class="btn btn-dark btn-lg" type="button">Button</button>
+
+                <div class="h3">
+                    <a href="https://www.linkedin.com/in/mahsaghezel/" class="text-light"><i
+                            class="bi bi-linkedin ms-1"></i></a>
+                    <a href="https://www.instagram.com/" class="text-light"><i
+                            class="bi bi-instagram ms-1"></i></a>
+                    <a href="https://github.com/ghezel1995" class="text-light"><i class="bi bi-github ms-1"></i></a>
+
+                    <a href="https://www.youtube.com" class="text-light"><i
+                            class="bi bi-youtube ms-1"></i></a>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Boxes -->
     <section class="p-5">
         <div class="container">
@@ -73,14 +82,13 @@
                     <div class="card bg-dark text-light">
                         <div class="card-body text-center">
                             <div class="h1 mb-3">
-                                <i class="bi bi-laptop"></i>
+                                <i class="bi bi-person-circle"></i>
                             </div>
-                            <h3 class="card-title mb-3">
-                                Virtual
-                            </h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus,
-                                officia. Aperiam quibusdam aspernatur velit sit!</p>
-                            <a href="#" class="btn btn-warning">Read More</a>
+                            <h3 class="card-title mb-3">Front End Developer</h3>
+                            <p class="card-text">A front end developer, also known as a front end web developer, is a
+                                professional responsible for the design and implementation of the interface.</p>
+                            <a href="#" class="btn btn-warning" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">Read More!</a>
                         </div>
                     </div>
                 </div>
@@ -88,14 +96,13 @@
                     <div class="card bg-secondary text-light">
                         <div class="card-body text-center">
                             <div class="h1 mb-3">
-                                <i class="bi bi-person-square"></i>
+                                <i class="bi bi-pin-angle-fill"></i>
                             </div>
-                            <h3 class="card-title mb-3">
-                                Hybrid
-                            </h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus,
-                                officia. Aperiam quibusdam aspernatur velit sit!</p>
-                            <a href="#" class="btn btn-dark">Read More</a>
+                            <h3 class="card-title mb-3">Roles and Responsibilities</h3>
+                            <p class="card-text">Decide web page design and structure, Develop features to enhance the
+                                users' experience, Striking a balance between functional and aesthetic design...</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#rolesmodal">Read
+                                More!</a>
                         </div>
                     </div>
                 </div>
@@ -103,39 +110,35 @@
                     <div class="card bg-dark text-light">
                         <div class="card-body text-center">
                             <div class="h1 mb-3">
-                                <i class="bi bi-people"></i>
+                                <i class="bi bi-person-check-fill"></i>
                             </div>
-                            <h3 class="card-title mb-3">
-                                In person
-                            </h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus,
-                                officia. Aperiam quibusdam aspernatur velit sit!</p>
-                            <a href="#" class="btn btn-warning">Read More</a>
+                            <h3 class="card-title mb-3">Skills</h3>
+                            <p class="card-text">Since the front end developer is the rock star of website/app development, they need to have a well-stocked personal toolbox. </p>
+                            <a href="#" class="btn btn-warning" data-bs-toggle="modal"
+                                data-bs-target="#skillsmodal">Read More!</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Learn Sections -->
     <section id="learn" class="p-5">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md">
-                    <img src="img/bloom-woman-and-man-doing-web-browser-development.png" alt="" class="img-fluid">
+                    <img src="img/05.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md p-5">
                     <h2>Learn The Fundamentals</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quaerat tempore,
-                        corrupti quis dicta similique.</p>
-                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At eveniet ipsa quam
-                        dolores neque ipsum sint ex amet repudiandae? Animi, perspiciatis cupiditate nam quam impedit
-                        saepe ea. Veniam, aut iure?</p>
-                    <a href="#" class="btn btn-light mt-3">
-                        <i class="bi bi-chevron-right"></i>Read More!
+                    <p class="lead">First, Learn CSS, JavaScript and HTML. These coding languages are the essential
+                        building blocks for web and app development, so you need to learn them.</p>
+                    <p>Then, Get Informed, Practice. And, Learn the Command Line, Learn Version Control, Enhance Your
+                        Skills, Take a Course.</p>
+                    <a href="" class="btn btn-light mt-3" data-bs-target="#LearnfundModalToggle2" data-bs-toggle="modal"
+                        data-bs-dismiss="modal">
+                        <i class="bi bi-chevron-right"></i> Read More
                     </a>
-
                 </div>
             </div>
         </div>
@@ -144,317 +147,483 @@
     <section id="learn" class="p-5 bg-dark text-light">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-
                 <div class="col-md p-5">
-                    <h2>Learn React</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quaerat tempore,
-                        corrupti quis dicta similique.</p>
-                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At eveniet ipsa quam
-                        dolores neque ipsum sint ex amet repudiandae? Animi, perspiciatis cupiditate nam quam impedit
-                        saepe ea. Veniam, aut iure?</p>
-                    <a href="#" class="btn btn-light mt-3">
-                        <i class="bi bi-chevron-right"></i>Read More!
+                    <h2>Stay Creative</h2>
+                    <p class="lead">HOW TO BE CREATIVE IN YOUR WEB FRONT END PROJECTS</p>
+                    <p>Web front end development is one of the fields in IT that combines technical-analytic knowledge
+                        with creative skills. Aside from coding with CSS or JavaScript, front end developers are also
+                        often tasked to explore their visual arts capabilities, which is what digital design is all
+                        about. So, if you are planning to become a front end developer, you should add some creative
+                        sparkle to your knowledge base by integrating basic (digital) design skills.</p>
+                    <a href="" class="btn btn-light mt-3" data-bs-target="#creativemodal" data-bs-toggle="modal"
+                        data-bs-dismiss="modal">
+                        <i class="bi bi-chevron-right"></i> Read
+                        More
                     </a>
-
                 </div>
                 <div class="col-md">
-                    <img src="img/surr-567.png" alt="" class="img-fluid">
+                    <img src="img/01.png" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
     </section>
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/04.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Discipline</h2>
+                    <p class="lead">Discipline is action or inaction that is regulated to be in accordance with a
+                        particular system of governance. Discipline is commonly applied to regulating human and animal
+                        behavior to its society or environment it belongs.</p>
+                    <a href="" class="btn btn-light mt-3" data-bs-target="#disciplinemodal" data-bs-toggle="modal"
+                        data-bs-dismiss="modal">
+                        <i class="bi bi-chevron-right"></i> Read More
+                    </a>
+                </div>
 
+            </div>
+        </div>
+    </section>
     <!-- Question Accordion -->
-    <section id="questions" class="p-5">
+    <section id="questions" class="p-5 bg-dark text-light">
         <div class="container">
             <h2 class="text-center mb-4">Frequently Asked Questions</h2>
-
             <div class="accordion accordion-flush" id="questions">
                 <!-- Item 1 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#questions-one">
-                            Where exactly are you located?
+                <div class="accordion-item bg-dark">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-light" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#question-one">
+                            What discipline really means?
                         </button>
                     </h2>
-                    <div id="questions-one" class="accordion-collapse collapse" data-bs-parent="#questions">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-                            architecto amet. Sint laborum placeat quam. Inventore dignissimos necessitatibus eos quasi
-                            et sapiente vitae, nihil ipsum, nisi consequuntur cumque illo porro aliquid nostrum itaque
-                            in minus modi mollitia quam alias odit dolores veritatis! Suscipit et optio, recusandae
-                            dolorem eligendi dignissimos eum?</div>
+                    <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            What discipline really means?
+                            1 : to punish or penalize for the sake of enforcing obedience and perfecting moral
+                            character. 2 : to train or develop by instruction and exercise especially in self-control.
+                            3a : to bring (a group) under control discipline troops. b : to impose order upon serious
+                            writers discipline and refine their writing styles.
+                        </div>
                     </div>
                 </div>
                 <!-- Item 2 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#questions-two">
-                            How much does it cost to attend?
+                <div class="accordion-item bg-dark">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-light" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#question-two">
+                            What are the 3 types of self-discipline?
                         </button>
                     </h2>
-                    <div id="questions-two" class="accordion-collapse collapse" data-bs-parent="#questions">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-                            architecto amet. Sint laborum placeat quam. Inventore dignissimos necessitatibus eos quasi
-                            et sapiente vitae, nihil ipsum, nisi consequuntur cumque illo porro aliquid nostrum itaque
-                            in minus modi mollitia quam alias odit dolores veritatis! Suscipit et optio, recusandae
-                            dolorem eligendi dignissimos eum?</div>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Three types of Self-Discipline:
+                            Here are examples of three types: active discipline, reactive discipline, and proactive
+                            discipline.</div>
                     </div>
                 </div>
                 <!-- Item 3 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#questions-three">
-                            What do I need to know?
+                <div class="accordion-item bg-dark">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-light" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#question-three">
+                            How do I become creative in frontend developer?
                         </button>
                     </h2>
-                    <div id="questions-three" class="accordion-collapse collapse" data-bs-parent="#questions">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-                            architecto amet. Sint laborum placeat quam. Inventore dignissimos necessitatibus eos quasi
-                            et sapiente vitae, nihil ipsum, nisi consequuntur cumque illo porro aliquid nostrum itaque
-                            in minus modi mollitia quam alias odit dolores veritatis! Suscipit et optio, recusandae
-                            dolorem eligendi dignissimos eum?</div>
+                    <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">if you're planning to become a front end developer, you should add
+                            some creative sparkle to your knowledge base by integrating basic (digital) design skills.
+                        </div>
                     </div>
                 </div>
                 <!-- Item 4 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#questions-four">
-                            How o I sign up?
+                <div class="accordion-item bg-dark">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-light" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#question-four">
+                            What is discipline example?
                         </button>
                     </h2>
-                    <div id="questions-four" class="accordion-collapse collapse" data-bs-parent="#questions">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-                            architecto amet. Sint laborum placeat quam. Inventore dignissimos necessitatibus eos quasi
-                            et sapiente vitae, nihil ipsum, nisi consequuntur cumque illo porro aliquid nostrum itaque
-                            in minus modi mollitia quam alias odit dolores veritatis! Suscipit et optio, recusandae
-                            dolorem eligendi dignissimos eum?</div>
+                    <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">An example of discipline is a time out for a child who has just
+                            pushed his sibling. A state of order based on submission to authority. A set of rules
+                            regulating behaviour. A controlled behaviour; self-control.</div>
                     </div>
                 </div>
                 <!-- Item 5 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#questions-five">
-                            Do you help me find a job?
+                <div class="accordion-item bg-dark">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-light" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#question-five">
+                            Is front end development Easy?
                         </button>
                     </h2>
-                    <div id="questions-five" class="accordion-collapse collapse" data-bs-parent="#questions">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-                            architecto amet. Sint laborum placeat quam. Inventore dignissimos necessitatibus eos quasi
-                            et sapiente vitae, nihil ipsum, nisi consequuntur cumque illo porro aliquid nostrum itaque
-                            in minus modi mollitia quam alias odit dolores veritatis! Suscipit et optio, recusandae
-                            dolorem eligendi dignissimos eum?</div>
+                    <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">The practice of front end development is similar to playing the
+                            bass: it's easy to learn but difficult to master. There is a lot more to it than HTML and
+                            CSS (which are plenty difficult onto themselves).</div>
+                    </div>
+                </div>
+                <!-- Item 6 -->
+                <div class="accordion-item bg-dark">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-light" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#question-six">
+                            How is discipline a strength?
+                        </button>
+                    </h2>
+                    <div id="question-six" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Because people with the strength of Discipline can plan, organize,
+                            structure and execute, they seem to be able to achieve this with great accuracy and
+                            productivity within structured environments. People with the strength of Discipline like to
+                            know what is expected of them.</div>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
-    <!-- Instructors -->
-    <section id="instructors" class="p-5 bg-warning">
+
+    <!-- Author -->
+    <section id="about" class="p-5">
         <div class="container">
-            <h2 class="text-center text-white">Our Instructors</h2>
-            <p class="lead text-center text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi, illo?</p>
-            <div class="row g-4">
-                <!-- usre1 -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/men/14.jpg" class="rounded-circle mb-3"
-                                alt="">
-                            <h3 class="card-title mb-3">Joh Doe</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-                                tempora odio recusandae. Sint, maxime praesentium.</p>
-                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                            <a href="#">
-                                <i class="bi bi-linkedin text-dark mx-1"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- usre2 -->
+            <h2 class="text-center mb-5">About</h2>
+            <div class="d-flex justify-content-center">
+                <!-- USER -->
+                <div class="card mb-3" style="width:26rem ;">
+                    <img src="img/me.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Mahsa Ghezel</h5>
+                        <p class="card-text lead text-center mb-5">My name is Mahsa and I'm Front End Developer. Glad
+                            to see you
+                            in my page....</p>
+                        <p class="text-center"><small>Get In Touch With Me!</small></p>
+                        <div class="text-center">
+                            <a href="https://www.linkedin.com/in/mahsaghezel/" class="text-dark"><i
+                                    class="bi bi-linkedin ms-1"></i></a>
+                            <a href="https://www.instagram.com" class="text-dark"><i
+                                    class="bi bi-instagram ms-1"></i></a>
+                            <a href="https://github.com/ghezel1995" class="text-dark"><i
+                                    class="bi bi-github ms-1"></i></a>
 
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle mb-3"
-                                alt="">
-                            <h3 class="card-title mb-3">Steve Smith</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-                                tempora odio recusandae. Sint, maxime praesentium.</p>
-                            <a href="#">
-                                <i class="bi bi-twitter text-dark mx-1"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-facebook text-dark mx-1"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-instagram text-dark mx-1"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-linkedin text-dark mx-1"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- usre3 -->
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/women/16.jpg" class="rounded-circle mb-3"
-                                alt="">
-                            <h3 class="card-title mb-3">Linda Dora</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-                                tempora odio recusandae. Sint, maxime praesentium.</p>
-                            <a href="#">
-                                <i class="bi bi-twitter text-dark mx-1"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-facebook text-dark mx-1"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-instagram text-dark mx-1"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-linkedin text-dark mx-1"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- usre4 -->
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/women/20.jpg" class="rounded-circle mb-3"
-                                alt="">
-                            <h3 class="card-title mb-3">Amanda Khose</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-                                tempora odio recusandae. Sint, maxime praesentium.</p>
-                            <a href="#">
-                                <i class="bi bi-twitter text-dark mx-1"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-facebook text-dark mx-1"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-instagram text-dark mx-1"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-linkedin text-dark mx-1"></i>
-                            </a>
+                            <a href="https://www.youtube.com" class="text-dark"><i
+                                    class="bi bi-youtube ms-1"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
-    <!-- contact & map -->
-    <section class="p-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-md">
-                    <h2 class="text-center mb-4">Contact Info</h2>
-                    <ul class="list-group list-group-flush lead">
-                        <li class="list-group-item">
-                            <span class="fw-bold">Main Location: </span>50 Main st Bostan MA
-                        </li>
-                        <li class="list-group-item">
-                            <span class="fw-bold">Enrollment Phone: </span>(555) 555-5555
-                        </li>
-                        <li class="list-group-item">
-                            <span class="fw-bold">Student Phone: </span>(555) 555-5555
-                        </li>
-                        <li class="list-group-item">
-                            <span class="fw-bold">Enrollment Email: </span>Email@email.com
-                        </li>
-                        <li class="list-group-item">
-                            <span class="fw-bold">Student Email: </span>Emaillll@email.com
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md">
-                    <div id='map'></div>
 
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- FOOTER -->
+    <!--Footer  -->
     <footer class="p-5 bg-dark text-white text-center position-relative">
-        <div class="con">
-            <p class="lead">CopyRight &copy 2022 MahsaInWeb</p>
+        <div class="container">
+            <p class="lead">Copyright & Copy : Mahsa Ghezel 2022</p>
 
             <a href="#" class="position-absolute bottom-0 end-0 p-5">
-                <i class="bi bi-arrow-up-circle h"></i>
+                <i class="bi bi-arrow-up-circle h1"></i>
             </a>
-
         </div>
-
     </footer>
+
+
     <!-- Modal -->
-    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <!-- Front End Developer Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="enrollLabel">Modal title</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-content">
+                <div class="modal-header sticky-top bg-white">
+                    <h5 class="modal-title" id="staticBackdropLabel">Front End Developer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>What Is a Front End Developer?</h3>
+                    <p>A front end developer, also known as a front end web developer, is a professional responsible for
+                        the design and implementation of the interface. The users require this interface so that they
+                        can access the application in question. A web designer is a professional who creates a website
+                        is appearance and design. And the front end developer makes sure that the design works online by
+                        using coding languages such as CSS, HTML, and JavaScript.</p>
+                    <p>We should pause for a moment to clarify the differences between a front end developer, back end
+                        developer, and full stack developer. Let's put this in simple terms: a front end developer is
+                        responsible for the parts of an app or website that users see and interact with. A back end
+                        developer takes care of the “behind the scenes” matters such as infrastructure and databases.
+                        The full-stack developer is a mixture of both, a jack of all trades that can handle the whole
+                        design process from the beginning to the end.</p>
+                    <p>Note that there is a trend these days where the line between the front end and back end
+                        development has been blurring. Primarily since many of the tasks that fall in the domain of back
+                        end developers are being increasingly handled by the front end developers.</p>
+                    <p>As a final aside, there are also full-stack engineers. They are full-stack developers who have
+                        project management experience, adept at disciplines in the configuring, managing, and
+                        maintaining computer networks and systems</p>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#staticBackdrop" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">Back</button>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-              <p class="lead">Fill out this form and we wil get back to you.</p>
-              <form>
-                  <div class="mb-3">
-                      <label for="first-name" class="col-form-label">First Name: </label>
-                      <input type="text" class="form-control" id="first-name">
-                  </div>
-                  <div class="mb-3">
-                      <label for="last-name" class="col-form-label">Last Name: </label>
-                      <input type="text" class="form-control" id="last-name">
-                  </div>
-                  <div class="mb-3">
-                      <label for="email" class="col-form-label">Email: </label>
-                      <input type="text" class="form-control" id="email">
-                  </div>
-                  <div class="mb-3">
-                      <label for="phone" class="col-form-label">Phone: </label>
-                      <input type="text" class="form-control" id="phone">
-                  </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Submit</button>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
+    <!-- Roles and Responsibilities Modal -->
+    <div class="modal fade" id="rolesmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="rolesmodalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header sticky-top bg-white">
+                    <h5 class="modal-title" id="rolesmodalLabel">Roles and Responsibilities</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Front End Developer Roles and Responsibilities</h3>
+                    <p class="lead">If you're wondering what a front end developer does, he / she must: </p>
+                    <ul>
+                        <li>Decide web page design and structure</li>
+                        <li>Develop features to enhance the users' experience</li>
+                        <li>Striking a balance between functional and aesthetic design</li>
+                        <li>Make sure the web design is smartphone-capable</li>
+                        <li>Build reusable code for future use</li>
+                        <li>Make sure web pages are optimized for best speed and scalability</li>
+                        <li>Employ a diverse selection of markup languages to design web pages</li>
+                        <li>Keep the brand consist throughout the whole design</li>
+                    </ul>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#rolesmodal" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">Back</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skills Modal -->
+    <div class="modal fade" id="skillsmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="rolesmodalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header sticky-top bg-white">
+                    <h5 class="modal-title" id="rolesmodalLabel">Skills</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Front End Developer Skills in 2022</h3>
+                    <p class="lead">Since the front end developer is the rock star of website/app development, they need
+                        to have a well-stocked personal toolbox. So a front end developer skills include the need to:
+                    </p>
+                    <ul>
+                        <li>Have a degree in Computer Science or similar field</li>
+                        <li>Be proficient in coding languages such as HTML, CSS, JavaScript, and jQuery</li>
+                        <li>Understand server-side CSS</li>
+                        <li>Be experienced with graphic design applications (e.g., Adobe Illustrator)</li>
+                        <li>Understand the principles of SEO</li>
+                        <li>Have excellent skills in problem-solving</li>
+                        <li>Be proficient in communicating with team members, bosses, and clients</li>
+                        <li>Have good interpersonal skills</li>
+                    </ul>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#skillsmodal" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">Back</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Stay Creative Modal -->
+    <div class="modal fade" id="creativemodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="rolesmodalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header sticky-top bg-white">
+                    <h5 class="modal-title" id="rolesmodalLabel">Stay Creative</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Actually, web front end development is considered a multi-discipline. Most companies
+                        prefer to hire front end developers who are adept not only in coding but also in digital
+                        psychology and design. Understanding color theory & visual patterns, and their effect on the
+                        user are important. Knowledge of typography is also essential. Why is this type better than the
+                        previous one I use? Which types do visitors react positively the most? These are just some of
+                        the design-related questions that a web front end developer often deals with.</p>
+
+                    <h3>Why Knowledge and Understanding of Design Matters</h3>
+                    <p class="lead">A web front end developer's primary job is coding and ensuring that a website's
+                        front-end - a.k.a the one that viewers see and react to - is engaging and capable of generating
+                        interest leading to conversions. So, why should a front end developer possess and nurture design
+                        skills? The answer is simple: a developer who understands and knows how to apply even the basic
+                        design factors creates a front end that positively impacts users and their choices.
+
+                        Additionally, combining technical and analytical expertise with creative skills catapults a
+                        front end developer's portfolio ahead of other developers.
+                    </p>
+                    <h3>How to Add Creativity to Web Front End Projects</h3>
+                    <p>So, how can a web front end developer add creativity to projects? Here are some simple tips and
+                        suggestions.</p>
+                    <ul>
+                        <h4>1.Practice first then practice more.</h4>
+                        <p>Before anything else, find time to practice. There are several ways you can do this</p>
+                        <li>Use free online tutorial websites like freeCodeCamp.org. You can ask questions and view
+                            tutorials on various front end development-related matters</li>
+                        <li>Clone a website that you like. Creating a clone of a website is a good way to practice not
+                            only your technical skills but also your creativity. Find time to explore your chosen
+                            website. Take note of essential elements like typography, colors, media, content, and
+                            structure. If this is your first time coding, choose a site that has a simple CSS and HTML
+                            configuration. Pick only JavaScript website if you already have significant coding
+                            experience</li>
+                        <li>Join Startechup Academy. It's a community of front and back end web developers. You can ask
+                            for tips, advises, and suggestions from the experts. You can also join its scheduled
+                            livestream on YouTube, Facebook Live, and Twitch. All these are for FREE</li>
+
+                        <h4>2.Pay attention to typography and color theory</h4>
+                        <p>The fonts and colors you use for a website greatly impacts its visitors. There are specific
+                            guidelines for using fonts - and applying color theory is highly recommended. Here are some
+                            examples you should consider:</p>
+                        <p class="lead">For fonts:</p>
+                        <li>If you want a professional-like appearance and effect, use simple fonts</li>
+                        <li>For a classic or timeless look, use display or traditional fonts</li>
+                        <li>For light and fun websites, choose playful fonts</li>
+                        <p>You can have two fonts on a single page as this helps create beautiful contrast. However,
+                            take note of proper font pairing. For example, do not pair an old or traditional font with
+                            another traditional font. Check out several online resources for the best font pairs</p>
+                        <p class="lead">For colors:</p>
+                        <li>For professional or corporate websites, stick to using toned down or light colors.</li>
+                        <li>If you want to be consistent in your branding, use the brand's official colors.</li>
+                        <li>To create a dramatic feel, go for contrasting dark colors.</li>
+                        <li>For a positive and energetic effect, choose bright and cheerful colors.</li>
+
+                        <h4>3.Create enough negative space</h4>
+                        <p>The word “enough” is specified because too much negative or white space is not good for any
+                            website. A negative space is what you call that empty area between page elements (such as
+                            photos). If you have the right amount of white space, the website will achieve the following
+                        </p>
+                        <li>Less cluttered look, and elements stand out easily because of the negative space between
+                            them.</li>
+                        <li>More balanced because the elements are evenly spaced. The central area has more relevant
+                            content and the edges are freed of clutter.</li>
+                        <li>Margin is more prominent, which makes pages look clean and organized.</li>
+
+                        <h4>4.Add the right icons and images</h4>
+                        <p>Creative web front end projects need visually stimulating and engaging icons and images. So,
+                            you should add some to the website you are creating. You can start by adding a menu icon.
+
+                            If you do not have enough high-quality images, you can download some royalty-free photos
+                            from Pixabay. Don't forget to consider the overall theme of the website, as well as the
+                            color scheme. Your chosen images should match with or compliment them.</p>
+
+                        <h4>5.Animate - but not too much</h4>
+                        <p>Regardless of the type of website you are designing, visitors are bound to be attracted to
+                            anything visual. Animation is visually entertaining, so you should consider adding some to
+                            the site. It is important to note, though, that too much of it can be distracting or
+                            irritating, so be sure to add just the right type and amount.</p>
+                        <p>Challenge your creativity by creating an interactive image that animates when users hover
+                            over it. You can also add simple animations to buttons when viewers click on it. You just
+                            have to explore your creative juices to add some visual elements to your web front end
+                            projects.</p>
+                        <p>These are just some of the best - and doable - ways for a developer to turn web front end
+                            projects into creative masterpieces. Actually, the trick is to keep practicing and creating.
+                            The only way a front end developer can improve both his or her coding and design skills is
+                            to keep practicing. Coding is, in itself, already creative, yet in a technical way. So, your
+                            programming skills are already in you; you only need to bring them out and nurture them.</p>
+                    </ul>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#creativemodal" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- discipline modal -->
+    <div class="modal fade" id="disciplinemodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="rolesmodalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header sticky-top bg-white">
+                    <h5 class="modal-title" id="rolesmodalLabel">Stay Creative</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
 
 
-
-
-
-
-
+                    <h2>The Disciplines of Web Design</h2>
+                    <p class="lead">Fundamentally, the web is a content delivery system. In the early days of dial-up
+                        modems and green-on-black monochrome monitors, text was all we could deliver with any kind of
+                        speed. We listened to the sweet song of the 2400bit/s modem, tried to make the best pixel art
+                        that we could, or settled for creating art from ASCII characters. And we liked it.
+                    <p class="lead">Nobody liked it; it was terrible. But steadily things improved and now the web is
+                        filled with streaming video and complex animations, delivered to a variety of devices with a
+                        dizzying assortment of screen sizes and capabilities. Text is still the main method of
+                        communication on the web and most likely it always will be, so the practice of “Web Design”
+                        centers largely around how to present the written word and navigate a nested hierarchy of
+                        information.
+                    <p class="lead">Designing websites, whether they are simple pages or complex applications, relies on
+                        a wide spectrum of design disciplines.
+                    </p>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#disciplinemodal" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Learn fundamentals modal -->
+    <div class="modal fade" id="LearnfundModalToggle2" aria-hidden="true" aria-labelledby="LearnfundModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel2">Learn The Fundamentals</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>How to Become a FrontEnd Developer.</h1>
+                    <p class="lead">Do not let the above list intimidate you. You can become a front end developer if
+                        you follow these simple steps.</p>
+                    <ul>
+                        <li class="h3">Learn CSS, JavaScript and HTML</li>
+                        <p>These coding languages are the essential building blocks for web and app development, so you
+                            need to learn them. Fortunately, its not a very difficult undertaking. There are lots of
+                            online resources available out there that can help further your education in the coding
+                            languages. For extra credit, familiarize yourself with jQuery and JavaScript Frameworks.</p>
+                        <li class="h3">Get Informed</li>
+                        <p>That means reading articles and books about front end development. By getting an
+                            understanding of how things work on a website, you can make better sense of the various
+                            coding languages. If you want to round out your learning experience, check out some videos
+                            on YouTube.</p>
+                        <li class="h3">Practice</li>
+                        <p>Here is where the old saying “practice makes perfect” comes into play. Start small by using
+                            your newfound knowledge to build small parts of a user interface, then expand slowly. If you
+                            end up making mistakes, do not worry. Sometimes we learn more from our errors than we do
+                            from a flawless performance.</p>
+                        <li class="h3">Learn the Command Line</li>
+                        <p>When pursuing a profession that has anything to do with web design, it is a good idea to get
+                            at least a basic grasp of concepts like displaying files and file system navigation. On a
+                            related note, you should familiarize yourself with the properties of the Shell, which is the
+                            means of accessing operating system functions via a text interface.</p>
+                        <li class="h3">Learn Version Control</li>
+                        <p>One of the hazards of coding is having it break when you change one small thing. Even after
+                            you try to rectify the problem, things are never quite the same again. That is why a good
+                            front end developer learns version control. There is an impressive selection of version
+                            control systems to choose from, but if you want to go with the most popular, go with Git.
+                        </p>
+                        <li class="h3">Enhance Your Skills</li>
+                        <p>Check out some tutorials, tools, and open-source projects. Resources such as freeCodeCamp,
+                            Codecademy, Bootstrap, Vue.js, CSS Layout, and Front-end Checklist exist to help you master
+                            the skills of front end development without having to lay out any money for the opportunity.
+                            These tools are easily accessible online and can be a much-needed boost to your front end
+                            development education.</p>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#LearnfundModalToggle2" data-bs-toggle="modal"
+                        data-bs-dismiss="modal">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
-    <script>
-        mapboxgl.accessToken = 'pk.eyJ1IjoibWFoZzFoIiwiYSI6ImNrem12NGhveTJybnUycG8wODl3eHp4M2wifQ.KmJGSBrhxTCzXd9cCsMNWQ';
-        var map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v11',
-            center:[-71.060982, 42.35725],
-            zoom:18
-        });
-    </script>
+    
 </body>
 </html>
