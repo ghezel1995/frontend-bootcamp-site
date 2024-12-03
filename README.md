@@ -2,6 +2,8 @@
 
 This project is designed to guide and inspire aspiring front-end developers. It provides educational content in a modal-based interactive format to help users learn about the role of a front-end developer, stay creative, understand web design disciplines, and learn the fundamentals of becoming a front-end developer.
 
+![preview](./img/Screenshot 2024-12-03 135356.png)
+
 ## Project Overview
 
 The "Be Creative" website focuses on introducing essential concepts of front-end development, along with creative tips and techniques. It includes
